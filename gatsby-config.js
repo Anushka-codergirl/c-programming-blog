@@ -3,7 +3,7 @@ module.exports = {
     title: `C Programming Blog`,
     author: {
       name: `Anushka Raj`,
-      summary: `who lives and works in Hajipur building useful things.`
+      summary: `who likes to teach programming and work on front-end technologies.`
     },
     description: `Blog for C Programming`,
     siteUrl: `https://c-programming-blog.netlify.app/`,
