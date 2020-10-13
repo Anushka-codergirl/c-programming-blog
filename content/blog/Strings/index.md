@@ -7,7 +7,7 @@ description: Strings.
 ## String Manipulation Function
 
 | S.L.No     | Function                            |                     Description                                                                                      |
-| :----------| :---------------------------------- | -------------------------------------------------------------------------------------------------------------------: |         | 1          | strlen(str)                         | computes string's length                                                                                             |
+| :----------| :---------------------------------- | -------------------------------------------------------------: |         | 1          | strlen(str)                         | computes string's length                                                                                             |
 | 2          | strcpy(str destination ,str source) | copies a string to another                                                                                           |
 | 3          | strcat(str1,str2)                   | concatenates(joins) two strings                                                                                      |
 | 4          | strcmp(str1,str2)                   | compares two strings.Returns 0 if str1 and str2 are the same; less than 0 if str1<str2; greater than 0 if str1>str2. |
