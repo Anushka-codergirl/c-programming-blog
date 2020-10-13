@@ -4,7 +4,7 @@ date: "2017-09-01T22:12:03.284Z"
 description: "Introduction to C Programming"
 ---
 
-This is my second post on my new C Programming blog! How exciting!
+Hello World! This is my first post on my new C Programming blog! How exciting!
 
 ## C Programming Language
 
