@@ -10,3 +10,12 @@ Oh, and here's a great quote from this AZ Quotes on
 [Programming](https://www.azquotes.com/quote/803730).
 
 > “It’s harder to read code than to write it.” — Joel Spolsky
+
+
+### First C Program - Hello World
+`#include <stdio.h>
+int main()
+{
+    printf("Hello World!");
+    return 0;
+}`
