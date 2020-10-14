@@ -6,6 +6,10 @@ description: "Introduction to C Programming"
 
 Hello World! This is my first post on my new C Programming blog! How exciting!
 
+I'm sure I'll write a lot more interesting things in the future.
+
+Let get started with C
+
 ## C Programming Language
 
 - It is general purpose, compiled, structural and middle level programming language.

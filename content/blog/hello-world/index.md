@@ -4,9 +4,7 @@ date: "2017-09-01T22:12:03.284Z"
 description: "Hello World"
 ---
 
-This is my second post on my new C Programming blog! How exciting!
-
-I'm sure I'll write a lot more interesting things in the future.
+This is my second post on my new C Programming blog!
 
 Oh, and here's a great quote from this AZ Quotes on
 [Programming](https://www.azquotes.com/quote/803730).
