@@ -1,14 +1,15 @@
 ---
 title: Loop Control
-date: "2018-05-28T22:40:32.169Z"
+date: "2020-10-18T22:40:32.169Z"
 description: Loop control.
 ---
 
 ### Loop Control
 
+#### 1. The for Loop
 
-#### 1.For Loop
+#### 2. The while Loop
 
-#### 2.While Loop
+#### 3. The do-While Loop
 
-#### 3.Do While Loop
+#### 4. Nested Loop
