@@ -1,6 +1,6 @@
 ---
 title: Storage Class
-date: "2019-05-28T22:40:32.169Z"
+date: "2020-10-16T22:40:32.169Z"
 description: Storage Class.
 ---
 

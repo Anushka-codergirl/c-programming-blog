@@ -1,6 +1,6 @@
 ---
 title: Structure and Union
-date: "2020-10-06T23:46:37.121Z"
+date: "2020-10-20T23:46:37.121Z"
 ---
 
 ### Structures

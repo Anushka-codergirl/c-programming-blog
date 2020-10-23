@@ -1,6 +1,6 @@
 ---
 title: Decision Statements
-date: "2020-09-13T22:12:03.284Z"
+date: "2020-08-26T22:12:03.284Z"
 description: "Jump Statements"
 ---
 
