@@ -1,6 +1,6 @@
 ---
 title: Introduction
-date: "2017-09-01T22:12:03.284Z"
+date: "2020-08-16T22:12:03.284Z"
 description: "Introduction to C Programming"
 ---
 
