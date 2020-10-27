@@ -61,7 +61,7 @@ const Bio = () => {
           </a>{" "}
           and
           <a href={`https://instagram.com/${social?.instagram || ``}`}>
-            instagram
+            Instagram
           </a>
           .
         </p>
