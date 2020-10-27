@@ -8,7 +8,8 @@ module.exports = {
     description: `Blog for C Programming`,
     siteUrl: `https://c-programming-blog.netlify.app/`,
     social: {
-      twitter: `AnushCodergirl`
+      twitter: `AnushCodergirl`,
+      instagram: `anush.codergirl`
     }
   },
   plugins: [

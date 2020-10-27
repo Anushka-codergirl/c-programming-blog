@@ -11,10 +11,10 @@ description: The C Declarations.
 A character set is a set of valid characters that a language can recognise.
 C has the following character set:
 
-_Letters_ A-Z ,a-z
-_Digits_ 0-9
-_Special Symbols_ + - \* / % () []{}\ / = !<> . , ; : & ^ ? \_ ' " ~ # \$
-_White Spaces_ Blank Space, Horizontal tab, Carriage return, Newline, Form feed.
+- _Letters_ A-Z ,a-z
+- _Digits_ 0-9
+- _Special Symbols_ + - \\* / % () []{}\ / = !<> . , ; : & ^ ? \\_ ' " ~ # \$
+- _White Spaces_ Blank Space, Horizontal tab, Carriage return, Newline, Form feed.
 
 **Token**: It is the smallest individual unit in a program.
 

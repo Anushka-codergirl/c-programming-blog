@@ -27,6 +27,7 @@ const Bio = () => {
           }
           social {
             twitter
+            instagram
           }
         }
       }
@@ -47,17 +48,22 @@ const Bio = () => {
           alt={author?.name || ``}
           className="bio-avatar"
           imgStyle={{
-            borderRadius: `50%`,
+            borderRadius: `50%`
           }}
         />
       )}
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
+          {` `}Follow me on
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+            Twitter
+          </a>{" "}
+          and
+          <a href={`https://instagram.com/${social?.instagram || ``}`}>
+            instagram
           </a>
+          .
         </p>
       )}
     </div>
