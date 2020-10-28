@@ -32,3 +32,8 @@ Syntax:
 A loop may contain another loop in its body. This type of a loop is called a nested loop.
 
 In a nested loop, the inner loop must terminate before the outer loop terminates.
+
+#### 5.Infinite Loop
+
+A loop that never ends. A loop becomes infinite loop if a condition never becomes false.
+You can make an endless loop by leaving the conditional expression empty.
