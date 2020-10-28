@@ -27,4 +27,4 @@ Syntax:
 
 #### 4. The exit() Function
 
-The **exit()** function terminates the calling process immediately.
+The **exit()** function is a library function and it breaks out of the program, abandoning the rest of the execution of the program. This function terminates the calling process immediately.
