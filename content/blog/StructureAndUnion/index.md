@@ -6,7 +6,7 @@ description: "Structure and Union"
 
 ### Structures
 
-Structure is user defined data type that allows us to hold different kinds of data items.
+Structure is user defined data type that allows us to hold different kinds of data items. It is a collection of logically related variables referenced under one name.
 Structures are used to represent a record.
 
 #### Structure within structure
