@@ -1,8 +1,12 @@
 ---
 title: Strings
 date: "2020-09-20T22:40:32.169Z"
-description: Strings.
+description: "Strings."
 ---
+
+## String
+
+String is actually one-dimensional charcater array terminated by null character '\0'.
 
 ## String Manipulation Function
 
