@@ -13,4 +13,8 @@ Oh, and here's a great quote from this AZ Quotes on
 
 ### First C Program - Hello World
 
-`#include <stdio.h> int main() { printf("Hello World!"); return 0; }`
+`#include <stdio.h>`
+`int main() {`
+`printf("Hello World!");`
+`return 0;`
+`}`

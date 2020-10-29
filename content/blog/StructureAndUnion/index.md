@@ -20,3 +20,5 @@ Structures are used to represent a record.
 #### typedef
 
 ### Union
+
+A union is a special data type that allows us to store different data types in the same memory location.
