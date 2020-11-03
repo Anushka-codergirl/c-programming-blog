@@ -12,6 +12,19 @@ The jump statements unconditionally transfer program control within a function.
 
 The **continue** statement abandons the current iteration of the loop by skipping over the rest of the statements in the loop-body. It immediately transfers control to the evaluation of the test-expression of the loop for the next iteration of the loop.
 
+```c
+#include<stdio.h>
+int main(){
+  int i;
+  for(i=1;i<10;i++){
+    if(i%2==0){
+      continue;
+    }
+    printf("%d",i);
+  }
+}
+```
+
 #### 2. The break Statement
 
 The **break** statment causes the termination of the statement there and then and the control passes over to the statement following loop containing break.
@@ -23,7 +36,14 @@ A **goto** statement transfers the program control anywhere in the program.
 The target destination of a goto statement is marked by a _label_
 
 Syntax:
-`goto label; . . . label:`
+
+```c
+goto label;
+.
+.
+.
+label:
+```
 
 #### 4. The exit() Function
 

@@ -6,7 +6,7 @@ description: File Handling.
 
 ### File
 
-```
+```c
 //Opening a file in read mode
 #include<stdio.h>
 #include<string.h>
@@ -42,7 +42,7 @@ int main()
 
 ```
 
-```
+```c
 //Program to Write on Data File and Read From Data File
 #include<stdio.h>
 

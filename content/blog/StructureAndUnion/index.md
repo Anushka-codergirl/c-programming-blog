@@ -17,7 +17,7 @@ Structures are used to represent a record.
 
 #### Structure and Functions
 
-```
+```c
 #include<stdio.h>
 #include<string.h>
 struct Books{
@@ -52,9 +52,9 @@ Output:
 
 ```
 Book Data
-Book Title: Programming in C
-Book Author: Ashok N. Kamthane
-Book Subject: C
+Book Title: Programming in C Book
+Author: Ashok N. Kamthane Book
+Subject: C
 Book Id: 120345
 ```
 

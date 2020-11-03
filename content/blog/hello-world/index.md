@@ -13,7 +13,7 @@ Oh, and here's a great quote from this AZ Quotes on
 
 ### First C Program - Hello World
 
-```
+```c
 #include <stdio.h>
 int main() {
 printf("Hello World!");
