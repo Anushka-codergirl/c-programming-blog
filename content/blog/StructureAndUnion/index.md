@@ -13,6 +13,54 @@ Structures are used to represent a record.
 
 #### Array of structures
 
+```c
+#include<stdio.h>
+#include <string.h>
+struct studentData{
+int roll;
+char name[10];
+};
+int main(){
+int i;
+struct studentData st[5];
+printf("Enter Records of 5 students");
+for(i=0;i<5;i++){
+printf("\nEnter Rollno: ");
+scanf("%d",&st[i].roll);
+printf("\nEnter Name: ");
+scanf("%s",&st[i].name);
+}
+printf("\nStudent Data:");
+for(i=0;i<5;i++){
+printf("\nRoll no: %d, Name: %s",st[i].roll,st[i].name);
+}
+   return 0;
+}
+```
+
+Output
+
+```
+Enter Records of 5 students
+Enter Rollno: 1
+Enter Name: Anushka
+Enter Rollno: 2
+Enter Name: Babita
+Enter Rollno: 3
+Enter Name: Pragati
+Enter Rollno: 4
+Enter Name: Ujjwal
+Enter Rollno: 5
+Enter Name: Prince
+
+Student Data:
+Rollno: 1, Name: Anushka
+Rollno: 2, Name: Babita
+Rollno: 3, Name: Pragati
+Rollno: 4, Name: Ujjwal
+Rollno: 5, Name: Prince
+```
+
 #### Pointer to structure
 
 #### Structure and Functions
