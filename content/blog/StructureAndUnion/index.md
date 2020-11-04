@@ -9,6 +9,45 @@ description: "Structure and Union"
 Structure is user defined data type that allows us to hold different kinds of data items. It is a collection of logically related variables referenced under one name.
 Structures are used to represent a record.
 
+Syntax:
+
+```c
+struct structure_name
+{
+    data_type member1;
+    data_type member2;
+    .
+    .
+    data_type memeberN;
+};
+```
+
+```c
+#include<stdio.h>
+#include<string.h>
+struct Employee
+{   int id;
+    char name[25];
+}emp;  //declaring emp variable for structure
+int main( )
+{
+   //stores employee information
+   emp.id=1001;
+   strcpy(emp.name, "Jazz Jenkins");
+   //prints first employee information
+   printf( "Employee id : %d\n", emp.id);
+   printf( "Employee name : %s", emp.name);
+return 0;
+}
+```
+
+Output
+
+```
+Employee id : 1001
+Employee name : Jazz Jenkins
+```
+
 #### Structure within structure
 
 #### Array of structures
