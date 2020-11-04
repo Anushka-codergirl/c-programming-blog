@@ -25,7 +25,7 @@ int i;
 struct studentData st[5];
 printf("Enter Records of 5 students");
 for(i=0;i<5;i++){
-printf("\nEnter Rollno: ");
+printf("\nEnter Roll no: ");
 scanf("%d",&st[i].roll);
 printf("\nEnter Name: ");
 scanf("%s",&st[i].name);
@@ -42,23 +42,23 @@ Output
 
 ```
 Enter Records of 5 students
-Enter Rollno: 1
+Enter Roll no: 1
 Enter Name: Anushka
-Enter Rollno: 2
+Enter Roll no: 2
 Enter Name: Babita
-Enter Rollno: 3
+Enter Roll no: 3
 Enter Name: Pragati
-Enter Rollno: 4
+Enter Roll no: 4
 Enter Name: Ujjwal
-Enter Rollno: 5
+Enter Roll no: 5
 Enter Name: Prince
 
 Student Data:
-Rollno: 1, Name: Anushka
-Rollno: 2, Name: Babita
-Rollno: 3, Name: Pragati
-Rollno: 4, Name: Ujjwal
-Rollno: 5, Name: Prince
+Roll no: 1, Name: Anushka
+Roll no: 2, Name: Babita
+Roll no: 3, Name: Pragati
+Roll no: 4, Name: Ujjwal
+Roll no: 5, Name: Prince
 ```
 
 #### Pointer to structure
