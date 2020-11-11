@@ -4,7 +4,16 @@ date: "2020-11-01T22:40:32.169Z"
 description: File Handling.
 ---
 
-### File
+### File Handling
+
+#### File Handling Functions
+
+| SL.No | Function  | Description                                                      |
+| ----- | --------- | ---------------------------------------------------------------- |
+| 1     | fopen()   | opens a file to perform operations such as reading, writing etc. |
+| 2     | fclose()  | closes the file that is being pointed by file pointer fp.        |
+| 3     | fgets()   | reads a file line by line.                                       |
+| 4     | fprintf() | writes string into a file pointed by fp.                         |
 
 ```c
 //Opening a file in read mode
