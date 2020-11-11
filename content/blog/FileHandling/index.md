@@ -4,7 +4,12 @@ date: "2020-11-01T22:40:32.169Z"
 description: File Handling.
 ---
 
-### File Handling
+### File
+
+File is a collection of bytes that is stored on secondary storage devices like disk. There are two kinds of files in a system. They are:
+
+1. Text Files - contain ASCII codes of digits, alphabetic and symbols.
+2. Binary Files - contains collection of bytes (0’s and 1’s). These are compiled version of text files.
 
 #### File Handling Functions
 
@@ -14,6 +19,17 @@ description: File Handling.
 | 2     | fclose()  | closes the file that is being pointed by file pointer fp.        |
 | 3     | fgets()   | reads a file line by line.                                       |
 | 4     | fprintf() | writes string into a file pointed by fp.                         |
+
+#### Mode Of Operation Performed On A File
+
+| SL.No | Modes | Description                                                                                                                       |
+| ----- | ----- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | r     | opens a file in read mode and sets pointer to the first character in the file. It returns null if file does not exist.            |
+| 2     | w     | opens a file in write mode. It returns null if file could not be opened. If file exists, data are overwritten.                    |
+| 3     | a     | opens a file in append mode. It returns null if file couldn’t be opened.                                                          |
+| 4     | r+    | opens a file for read and write mode and sets pointer to the first character in the file.                                         |
+| 5     | w+    | opens a file for read and write mode and sets pointer to the first character in the file.                                         |
+| 6     | a+    | opens a file for read and write mode and sets pointer to the first character in the file. But, it can’t modify existing contents. |
 
 ```c
 //Opening a file in read mode
