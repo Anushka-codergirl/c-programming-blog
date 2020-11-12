@@ -8,10 +8,12 @@ description: Dynamic Memory Allocation.
 
 There are four types of functions for dynamic memory allocation: -
 
-1. malloc()
-2. calloc()
-3. realloc()
-4. free()
+| SL.No. | Function  | Description                                                                                  |
+| ------ | --------- | -------------------------------------------------------------------------------------------- |
+| 1.     | malloc()  | allocates requested size of bytes and returns a pointer first byte of allocated space.       |
+| 2.     | calloc()  | allocates space for an array elements initializes to 0 and then returns a pointer to memory. |
+| 3.     | realloc() | changes the size of previously allocated space.                                              |
+| 4.     | free()    | deallocate the previously allocated space.                                                   |
 
 #### malloc()
 
