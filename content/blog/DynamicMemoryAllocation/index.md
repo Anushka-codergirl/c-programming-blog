@@ -17,8 +17,40 @@ There are four types of functions for dynamic memory allocation: -
 
 #### malloc()
 
+It stands for **memory allocation**. This function reserves a block of memory of specified size and return a pointer of type void which can be casted into pointer of any form.
+
+Syntax:
+
+```c
+ptr = (data type *) malloc(byte size);
+```
+
 #### calloc()
+
+It stands for **contiguous allocation**. This function allocates multiple blocks of memory each of same size and sets all bytes to 0.
+
+Syntax:
+
+```c
+ptr = (data type *) calloc(n,element-size);
+```
 
 #### realloc()
 
+It stands for **re-allocation**. This function is used to enlarge or shrink the size of the previously allocated memory.
+
+Syntax:
+
+```c
+ptr = realloc(ptr,new-size);
+```
+
 #### free()
+
+This function is used to deallocated memory or release space.
+
+Syntax:
+
+```c
+free(ptr);
+```
