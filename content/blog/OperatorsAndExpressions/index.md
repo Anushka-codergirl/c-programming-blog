@@ -9,3 +9,11 @@ The operations (specific tasks) are represented by Operators and the objects of 
 
 **Expression**
 An expression in C is any valid combination of tokens.
+
+### Precedence of operators
+
+The precedence of operators determines which operator is executed first if there is more than one operator in an expression.
+
+### Associativity of Operators
+
+The associativity of operators determines the direction in which an expression is evaluated.
