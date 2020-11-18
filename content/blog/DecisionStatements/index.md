@@ -53,4 +53,23 @@ if(expression){
 
 #### 3. The if-else-if Ladder Statement
 
+Syntax:
+
+```c
+if(condition1){
+//code to be executed if condition1 is true
+}else if(condition2){
+//code to be executed if condition2 is true
+}
+else if(condition3){
+//code to be executed if condition3 is true
+}
+else if(conditionN){
+//code to be executed if conditionN is true
+}
+else{
+//code to be executed if all the conditions are false
+}
+```
+
 #### 4. The nested if-else Statement
