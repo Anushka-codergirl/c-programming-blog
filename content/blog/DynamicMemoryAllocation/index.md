@@ -6,6 +6,8 @@ description: Dynamic Memory Allocation.
 
 ###Dynamic Memory Allocation
 
+Dynamic Memory Allocation refers to allocating memory manually during run-time. It allows to solve memory issues such as increasing size, decreasing size or releasing space when no space is required.
+
 There are four types of functions for dynamic memory allocation: -
 
 | SL.No. | Function  | Description                                                                                  |
@@ -23,6 +25,32 @@ Syntax:
 
 ```c
 ptr = (data type *) malloc(byte size);
+```
+
+```c
+/*
+Program to find sum of n elements entered by user using malloc() function.
+*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<process.h>
+int main(){
+  int *ptr, n, i, sum=0;
+  printf("Enter number of elements:");
+  scanf("%d",&n);
+  ptr = (int *) malloc(n * sizeof(int));
+  if(ptr==NULL){
+    printf("Error!\nMemory not Allocated.");
+    exit(0);
+  }
+  printf("Enter elements values:");
+  for(i=0;i<n;i++){
+    scanf("%d",ptr+i);
+    sum += *(ptr+i);
+  }
+  printf("Sum = %d",sum);
+  return 0;
+}
 ```
 
 #### calloc()
