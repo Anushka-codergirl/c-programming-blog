@@ -12,7 +12,7 @@ The jump statements unconditionally transfer program control within a function.
 
 The **continue** statement abandons the current iteration of the loop by skipping over the rest of the statements in the loop-body. It immediately transfers control to the evaluation of the test-expression of the loop for the next iteration of the loop.
 
-```c
+````c
 #include<stdio.h>
 int main(){
   int i;
@@ -20,16 +20,52 @@ int main(){
     if(i%2==0){
       continue;
     }
-    printf("%d",i);
+    printf("%d ",i);
   }
   return 0;
 }
-```
+
+Output:
+
+```c
+1 3 5 7 9
+````
 
 #### 2. The break Statement
 
 The **break** statment causes the termination of the statement there and then and the control passes over to the statement following loop containing break.
 A break statement can appear in any of the loops and a switch statement.
+
+```c
+#include <stdio.h>
+int main()
+{
+     int num =0;
+     while(num<10)
+     {
+        printf("Value: %d\n", num);
+        if (num==5)
+        {
+            break;
+        }
+        num++;
+     }
+     printf("Out of while-loop");
+     return 0;
+}
+```
+
+Output:
+
+```c
+Value: 0
+Value: 1
+Value: 2
+Value: 3
+Value: 4
+Value: 5
+Out of while-loop
+```
 
 #### 3. The goto Statement
 
