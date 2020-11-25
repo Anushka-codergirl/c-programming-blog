@@ -12,7 +12,7 @@ The jump statements unconditionally transfer program control within a function.
 
 The **continue** statement abandons the current iteration of the loop by skipping over the rest of the statements in the loop-body. It immediately transfers control to the evaluation of the test-expression of the loop for the next iteration of the loop.
 
-````c
+```c
 #include<stdio.h>
 int main(){
   int i;
@@ -24,7 +24,7 @@ int main(){
   }
   return 0;
 }
-
+```
 Output:
 
 ```c
