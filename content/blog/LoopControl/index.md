@@ -15,6 +15,28 @@ A for loop can have multiple initialization and update expressions separated by 
 Syntax:
 `for(initialization expression(s);test-expression;update expression(s)) { //body of the loop; }`
 
+```c
+//Printing numbers using for loop
+#include<stdio.h>
+int main(){
+  int i;
+  for(i=1;i<=5;i++){
+    printf("i: %d\n",i);
+  }
+  return 0;
+}
+```
+
+Output:
+
+```c
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+```
+
 #### 2. The while Loop
 
 The while loop evaluates a test-expression before allowing entry into the loop.
