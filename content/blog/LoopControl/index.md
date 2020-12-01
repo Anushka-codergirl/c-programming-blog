@@ -59,3 +59,16 @@ In a nested loop, the inner loop must terminate before the outer loop terminates
 
 A loop that never ends. A loop becomes infinite loop if a condition never becomes false.
 You can make an endless loop by leaving the conditional expression empty.
+
+```c
+#include <stdio.h>
+int main()
+{
+  int i = 1;
+  for( ; ; )
+    {
+      printf("%d\n",i);
+    }
+return 0;
+}
+```

@@ -20,3 +20,9 @@ printf("Hello World!");
 return 0;
 }
 ```
+
+Output:
+
+```c
+Hello World!
+```

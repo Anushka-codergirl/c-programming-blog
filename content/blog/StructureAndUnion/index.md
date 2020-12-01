@@ -50,6 +50,22 @@ Employee name : Jazz Jenkins
 
 #### Structure within structure
 
+Structure within structure is also known as nesting of structure because a structure declaration is placed inside another structure. It is used to create complex records.
+
+```c
+struct Employee
+{
+	struct Man
+	{
+		char name [20];
+		int age;
+		int sal;
+	} d;
+int empid;
+char desg[10];
+} emp;
+```
+
 #### Array of structures
 
 ```c
