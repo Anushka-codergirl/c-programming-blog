@@ -1,7 +1,7 @@
 ---
 title: Recursion
 date: "2020-09-08T22:40:32.169Z"
-description: Recursion.
+description: "It is simply the process of repeating items in a self-comparable way."
 ---
 
 ### Recursion
