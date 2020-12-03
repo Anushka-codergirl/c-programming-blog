@@ -10,15 +10,6 @@ The operations (specific tasks) are represented by Operators and the objects of 
 **Expression**
 An expression in C is any valid combination of tokens.
 
-### Precedence of operators
-
-The precedence of operators determines which operator is executed first if there is more than one operator in an expression.
-
-### Associativity of Operators
-
-The associativity of operators determines the direction in which an expression is evaluated.
-
-
 ```c
 //Program to add two numbers
 #include<stdio.h>
@@ -30,7 +21,7 @@ int main()
   sum = n1 + n2;
   printf("Sum = %d", sum);
  return 0;
- }
+}
 ```
 
 Output:
@@ -39,3 +30,11 @@ Output:
 Enter two numbers: 10 15
 Sum = 25
 ```
+
+### Precedence of operators
+
+The precedence of operators determines which operator is executed first if there is more than one operator in an expression.
+
+### Associativity of Operators
+
+The associativity of operators determines the direction in which an expression is evaluated.
