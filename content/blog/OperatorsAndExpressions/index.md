@@ -17,3 +17,25 @@ The precedence of operators determines which operator is executed first if there
 ### Associativity of Operators
 
 The associativity of operators determines the direction in which an expression is evaluated.
+
+
+```c
+//Program to add two numbers
+#include<stdio.h>
+int main()
+{
+  int n1, n2, sum;
+  printf("Enter two numbers: ");
+  scanf("%d %d",&n1,&n2);
+  sum = n1 + n2;
+  printf("Sum = %d", sum);
+ return 0;
+ }
+```
+
+Output:
+
+```c
+Enter two numbers: 10 15
+Sum = 25
+```
