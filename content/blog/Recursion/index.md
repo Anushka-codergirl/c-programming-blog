@@ -13,3 +13,51 @@ Recursive functions are very useful to solve many mathematical problems, such as
 
 1.Direct Recursion
 2.Indirect Recursion
+
+
+```c
+#include <stdio.h>
+ 
+int sum (int);
+ 
+int main()
+{
+    int num, result;
+ 
+    printf("Enter the number: ");
+    scanf("%d", &num);
+    if(num>0){
+    	printf("The given number is positive.\n");
+    	result = sum(num);
+   		printf("Sum of digits of %d is %d\n", num, result);
+	} 
+	else if(num==0){
+		result = sum(num);
+		printf("Sum of digits of %d is %d\n", num, result);
+	}
+	else{
+		printf("Please enter positive 5-digit number...\nThank you!");	
+	}
+    return 0;
+}
+ 
+int sum (int num)
+{
+    if (num>0)
+    {
+    	return (num % 10 + sum(num / 10));    
+    }
+    else
+    {
+       return 0;
+    }
+}
+```
+
+Output:
+
+```c
+Enter the number: 12436
+The given number is positive.
+Sum of digits of 12436 is 16
+```
