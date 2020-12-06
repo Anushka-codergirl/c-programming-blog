@@ -55,6 +55,47 @@ A loop may contain another loop in its body. This type of a loop is called a nes
 
 In a nested loop, the inner loop must terminate before the outer loop terminates.
 
+```c
+/*Program to check if two numbers are equal, 
+greater or less than to each other*/
+#include <stdio.h>
+int main()
+{
+   int num1, num2;
+   printf("Enter the value of num1:");
+   scanf("%d", &num1);
+   printf("Enter the value of num2:");
+   scanf("%d",&num2);
+   if (num1 != num2)
+   {
+	printf("num1 is not equal to num2\n");
+	//Nested if else
+	if (num1 > num2)
+	{
+		printf("num1 is greater than num2\n");
+	}
+	else
+	{
+		printf("num2 is greater than num1\n");
+	}
+   }
+   else
+   {
+	printf("num1 is equal to num2\n");
+   }
+   return 0;
+}
+```
+
+Output:
+
+```c
+Enter the value of num1:11
+Enter the value of num2:29
+num1 is not equal to num2
+num2 is greater than num1
+```
+
 #### 5.Infinite Loop
 
 A loop that never ends. A loop becomes infinite loop if a condition never becomes false.
