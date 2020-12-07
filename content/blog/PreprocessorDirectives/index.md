@@ -23,3 +23,19 @@ for (fahr = LOWER; fahr <= UPPER; fahr += STEP)
 printf("%3d \t%6.1f\n", fahr, (5.0/9.0) * (fahr−32.0));
 }
 ```
+
+```c
+//Area of circle using #define preprocessor
+#include <stdio.h>
+#define PI 3.14
+#define AreaofCircle(r) (PI*r*r)
+
+int main() {
+    float radius, area;
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+    area = AreaofCircle(radius);
+    printf("Area = %.2f", area);
+    return 0;
+}
+```
