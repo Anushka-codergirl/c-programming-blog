@@ -24,6 +24,49 @@ A **function** is a named unit of a group of program statements that can be invo
 
 ##### Function with arguments but no return
 
+```c
+/* Program to print reverse of all the numbers from m to n using functions with arguments and no return type. the inputs in the program will be m and n variables and need to take these variables as arguments.*/
+#include<stdio.h>
+void Reverse(int,int);
+int main(){
+	int m, n;
+	printf("Enter two arguments:");
+	scanf("%d %d",&m,&n);
+	Reverse(m,n);
+	return 0;
+}
+
+void Reverse(int m, int n){
+	int i;
+	for(i=m;i<=n;i++){
+		int num = i,rem=0,rev=0;
+		while(num!=0){
+			rem = num%10;
+			rev = rev * 10 + rem;
+			num/=10;	
+	}	
+	printf("Reverse of %d = %d\n",i,rev);
+	}
+}
+```
+
+Output:
+```c
+Enter two arguments:121
+131
+Reverse of 121 = 121
+Reverse of 122 = 221
+Reverse of 123 = 321
+Reverse of 124 = 421
+Reverse of 125 = 521
+Reverse of 126 = 621
+Reverse of 127 = 721
+Reverse of 128 = 821
+Reverse of 129 = 921
+Reverse of 130 = 31
+Reverse of 131 = 131
+```
+
 ##### Function with arguments and return
 
 #### Call by value
