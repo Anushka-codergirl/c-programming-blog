@@ -13,7 +13,12 @@ The for loop gathers all its loop control elements on the top of the loop.
 A for loop can have multiple initialization and update expressions separated by commas.
 
 Syntax:
-`for(initialization expression(s);test-expression;update expression(s)) { //body of the loop; }`
+```c
+for(initialization expression(s);test-expression;update expression(s))
+{ 
+//body of the loop; 
+}
+```
 
 ```c
 //Printing numbers using for loop
@@ -41,13 +46,48 @@ i: 5
 
 The while loop evaluates a test-expression before allowing entry into the loop.
 Syntax:
-`while(expression) { //loop-body; }`
+```c
+while(expression)
+{
+//loop-body; 
+}
+```
+
+```c
+//Program to find factorial of a number
+#include <stdio.h>
+int main()
+{
+    int num,i=1,fact=1;
+    printf("Enter a number: ");
+    scanf("%d",&num);
+    while(i<=num){
+        fact = fact * i;
+        i++;
+    }
+    printf("Factorial of %d = %d",num,fact);
+
+    return 0;
+}
+```
+
+Output:
+
+```c
+Enter a number: 6
+Factorial of 6 = 720
+```
 
 #### 3. The do-While Loop
 
 The do-while loop executes at least once when the test-expression is false initially. It executes at least once always as it evaluates the test expression at the end of the loop.
 Syntax:
-`do { //statement; }while(test-expression);`
+```c
+do 
+{ 
+//statement; 
+}while(test-expression);
+```
 
 #### 4. Nested Loop
 
