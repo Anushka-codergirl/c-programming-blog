@@ -96,6 +96,24 @@ A loop may contain another loop in its body. This type of a loop is called a nes
 In a nested loop, the inner loop must terminate before the outer loop terminates.
 
 
+```c
+//Program to print table from 1 to 10
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=1;i<=10;i++){
+  {
+    for(j=1;j<=10;j++)
+      {
+        printf("%d\t",i*j);
+      }
+     printf("\n");
+  }
+  return 0;
+}
+```
+
 #### 5.Infinite Loop
 
 A loop that never ends. A loop becomes infinite loop if a condition never becomes false.
