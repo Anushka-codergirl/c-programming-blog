@@ -166,3 +166,32 @@ Book Id: 120345
 ### Union
 
 A union is a special data type that allows us to store different data types in the same memory location.
+
+```c
+#include<stdio.h>
+#include<string.h>
+int main(){
+	
+	union a{
+		short int i;
+		char ch[2];
+	};
+	
+	union a key;
+	key.i = 512;
+	strcpy(key.ch,"AR");
+	printf("Key.i = %d\n",key.i);
+	printf("Key.ch[0] = %c\n",key.ch[0]);
+	printf("Key.ch[1] = %c\n",key.ch[1]);
+	
+	return 0;
+}
+```
+
+Output:
+
+```c
+Key.i = 512
+Key.ch[0] = A
+Key.ch[1] = R
+```
