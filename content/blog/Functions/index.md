@@ -20,6 +20,33 @@ A **function** is a named unit of a group of program statements that can be invo
 
 ##### Function without arguments and return
 
+```c
+#include<stdio.h>
+void sum();
+int main(){
+   sum();
+   printf("Function terminated successfully....");
+   return 0;
+}
+
+void sum(){
+    int num1, num2, res;
+    printf("Enter two numbers: ");
+    scanf("%d %d",&num1, &num2);
+    res = num1 + num2;
+    printf("\nResult = %d\n",res);
+}
+```
+
+Output:
+
+```c
+Enter two numbers: 11
+99
+Result = 110
+Function terminated successfully....
+```
+
 ##### Function without arguments but return
 
 ##### Function with arguments but no return
