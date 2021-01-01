@@ -96,10 +96,15 @@ Reverse of 131 = 131
 
 ##### Function with arguments and return
 
+
 #### Call by value
 
 In call by value, the called function creates its own copies of original values sent to it. Any changes, that are made, occur on the function's copy of values and are not reflected back to the calling function.
+Example:
 
 #### Call by reference
 
 In call by reference, the called function accesses and works with the original values using their references. Any changes, that occur, take place on the original values and are reflected back to the calling function.
+
+
+Example:
