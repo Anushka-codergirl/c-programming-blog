@@ -25,3 +25,5 @@ The total amount of computer time needed to complete the execution of an algorit
 
 ####Space Complexity
 The total amount of computer memory needed to complete the execution of an algorithm means a program is called space complexity. It includes fixed space like code, statement, instructions, constants and variables, like problem dependent variables, stacks.
+
+###Different Types of Algorithm
