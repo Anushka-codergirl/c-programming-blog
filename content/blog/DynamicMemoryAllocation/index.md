@@ -73,6 +73,47 @@ Syntax:
 ptr = realloc(ptr,new-size);
 ```
 
+Example:
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+	int *ptr, i,n1,n2;
+	printf("Enter size of array:");
+	scanf("%d",&n1);
+	ptr = (int *)malloc(n1*sizeof(int));
+	printf("Address of previously allocated memory\n");
+	for(i=0;i<n1;++i){
+		printf("%u\n",ptr+i);
+	}
+	printf("\nEnter new size of array:");
+	scanf("%d",&n2);
+	ptr = realloc(ptr,n2);
+	for(i=0;i<n2;++i){
+		printf("%u\n",ptr+i);
+	}
+	return 0;
+}
+```
+
+Output:
+```c
+Enter size of array:3
+Address of previously allocated memory
+7541696
+7541700
+7541704
+
+Enter new size of array:5
+7541696
+7541700
+7541704
+7541708
+7541712
+```
+
+
 #### free()
 
 This function is used to deallocated memory or release space.
