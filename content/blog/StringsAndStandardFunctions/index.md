@@ -8,6 +8,41 @@ description: "Strings."
 
 String is actually one-dimensional charcater array terminated by null character '\0'.
 
+
+#### Declaration of strings
+
+Strings are declared in similar manner as arrays. The only difference is that, strings are of character type.
+
+Syntax:
+```c
+   char str[5];
+```
+
+Strings can also be declared using pointer.
+
+Syntax:
+```c
+	 char *p;
+```
+
+#### Initialization of strings
+
+String can be intialized in different ways.
+
+Example:
+```c
+	char alpha[] = "abcd";
+	      OR
+	char alpha[5] = "abcd";
+	      OR
+	char alpha[] = {'a','b','c','d','\0'};
+        OR
+	char alpha[5] = {'a','b','c','d','\0'};
+        OR
+	char *alpha = "abcd";
+```
+
+
 ## String Manipulation Function
 
 | SL.No | Function                            | Description                                                                                                          |
