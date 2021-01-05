@@ -107,4 +107,39 @@ Example:
 In call by reference, the called function accesses and works with the original values using their references. Any changes, that occur, take place on the original values and are reflected back to the calling function.
 
 
-Example:
+```c
+/*Program to swap two numbers*/
+#include<stdio.h>
+void swap(int *, int *);
+int main(){
+	int num1=5,num2=10;
+	printf("Numbers before swapping\n-----------------------\n");
+	printf("First number = %d\n",num1);
+	printf("Second number = %d\n",num2);
+	swap(&num1,&num2);
+	printf("\nNumbers after swapping\n-----------------------\n");
+	printf("First number = %d\n",num1);
+	printf("Second number = %d\n",num2);
+	return 0;
+}
+
+void swap(int *a, int *b){
+	int temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
+```
+
+Output:
+```c
+Numbers before swapping
+-----------------------
+First number = 5
+Second number = 10
+
+Numbers after swapping
+-----------------------
+First number = 10
+Second number = 5
+```
