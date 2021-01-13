@@ -12,8 +12,10 @@ Recursive functions are very useful to solve many mathematical problems, such as
 #### Types of Recursions:
 
 1.Direct Recursion
+If a function calls itself, it’s known as direct recursion. This results in a one-step recursive call: the function makes a recursive call inside its own function body.
 2.Indirect Recursion
-
+If the function f1 calls another function f2 and f2 calls f1 then it is indirect recursion (or mutual recursion).
+This is a two-step recursive call: the function calls another function to make a recursive call.
 
 ```c
 #include <stdio.h>
