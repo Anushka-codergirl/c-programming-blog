@@ -1,12 +1,14 @@
 ---
-title: Decision Statements
+title: Decision Making Statements
 date: "2020-08-26T22:12:03.284Z"
-description: "Jump Statements"
+description: "Decision making statements decides the direction of flow of program execution."
 ---
 
-### Decision Statements
+### Decision Making Statements
 
 #### 1. The if Statement
+
+It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.
 
 Syntax:
 
@@ -98,10 +100,27 @@ else{
 }
 ```
 
-#### 4. The nested if-else Statement
+#### 4. The nested if Statement
+
+Nested if statements means an if statement inside another if statement.
+
+Syntax:
 
 ```c
-/*Program to check if two numbers are equal, 
+if (condition1)
+{
+   // Executes when condition1 is true
+   if (condition2)
+   {
+      // Executes when condition2 is true
+   }
+}
+```
+
+#### 5. The nested if-else Statement
+
+```c
+/*Program to check if two numbers are equal,
 greater or less than to each other*/
 #include <stdio.h>
 int main()
@@ -140,4 +159,3 @@ Enter the value of num2:29
 num1 is not equal to num2
 num2 is greater than num1
 ```
-
