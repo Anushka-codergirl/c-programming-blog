@@ -53,3 +53,31 @@ int main() {
     return 0;
 }
 ```
+
+### Predefined Macros
+
+| SL.No. | Macro        | Description                                                  |
+| ------ | ------------ | ------------------------------------------------------------ |
+| 1      | \_\_DATE\_\_ | The current date as a string literal in "MM DD YYYY" format. |
+| 2      | \_\_TIME\_\_ | The current time as a string literal in "HH:MM:SS" format.   |
+| 3      | \_\_FILE\_\_ | This contains the current filename as a string literal.      |
+| 4      | \_\_LINE\_\_ | This contains the current line number as a decimal constant. |
+| 5      | \_\_STDC\_\_ | Defined as 1 when the complier with the ANSI standard.       |
+
+Example:
+
+```c
+#include<stdio.h>
+void main()
+{
+  printf("Date: %s\n",__DATE__);
+  printf("Time: %s\n",__TIME__);
+}
+```
+
+Output:
+
+```c
+Date: Oct 24 2020
+Time: 22:40:32
+```
