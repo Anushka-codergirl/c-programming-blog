@@ -13,7 +13,7 @@ C has the following character set:
 
 - _Letters_ A-Z ,a-z
 - _Digits_ 0-9
-- _Special Symbols_ + - \\* / % () []{}\ / = !<> . , ; : & ^ ? \\_ ' " ~ # \$
+- _Special Symbols_ + - \\\\* / % () []{}\ / = !<> . , ; : & ^ ? \\\\_ ' " ~ # \$
 - _White Spaces_ Blank Space, Horizontal tab, Carriage return, Newline, Form feed.
 
 **Token**: It is the smallest individual unit in a program.
@@ -31,3 +31,24 @@ C has the following character set:
 - No special characters, such as semicolon, period, whitespaces, slash or comma are permitted to be used in or as Identifier.
 
 **Literals**: These (often referred to as contants) are data items that never change their value during a program run.
+
+### Data Types
+
+Data types refer to an extensive system used for declaring variables or functions of different types.
+
+## 1. Basic Types
+
+These are of three types:
+
+- **integer types**
+- **floating-point types**
+- **character types**
+
+## 2. Derived Types
+
+They include
+
+- **Array**
+- **Pointer**
+- **Structure**
+- **Union**
