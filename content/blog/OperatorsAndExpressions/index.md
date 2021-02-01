@@ -10,6 +10,12 @@ The operations (specific tasks) are represented by Operators and the objects of 
 **Expression**
 An expression in C is any valid combination of tokens.
 
+### Types of operators
+
+#### Arithmetic Operators
+
+These are used to perform arithmetic operations.
+
 ```c
 //Program to add two numbers
 #include<stdio.h>
@@ -30,6 +36,22 @@ Output:
 Enter two numbers: 10 15
 Sum = 25
 ```
+
+#### Relational Operators
+
+These are used to check the relationship between two operands.
+
+#### Logical Operators
+
+These are used to check whether an expression is true or false.
+
+#### Bitwise Operators
+
+These are used to perform operations on individual bits.
+
+#### Assignment Operators
+
+These are used to assign values to variables.
 
 ### Precedence of operators
 
