@@ -49,6 +49,42 @@ Function terminated successfully....
 
 ##### Function without arguments but return
 
+```c
+//Program to find maximum number
+#include<stdio.h>
+int max();
+int main()
+{
+	int result;
+	result = max();
+	printf("Maximum value : %d\n",result);
+	return 0;
+}
+int max()
+{
+	int n1,n2;
+	printf("Enter two numbers:");
+	scanf("%d %d",&n1, &n2);
+	int max;
+	if(n1>n2)
+	{
+		max = n1;
+	}
+	else
+	{
+		max = n2;
+	}
+	return max;
+}
+```
+
+Output :
+
+```c
+Enter two numbers:4 8
+Maximum value : 8
+```
+
 ##### Function with arguments but no return
 
 ```c
@@ -70,14 +106,15 @@ void Reverse(int m, int n){
 		while(num!=0){
 			rem = num%10;
 			rev = rev * 10 + rem;
-			num/=10;	
-	}	
+			num/=10;
+	}
 	printf("Reverse of %d = %d\n",i,rev);
 	}
 }
 ```
 
 Output:
+
 ```c
 Enter two arguments:121
 131
@@ -96,6 +133,39 @@ Reverse of 131 = 131
 
 ##### Function with arguments and return
 
+```c
+#include<stdio.h>
+int min(int, int);
+int main()
+{
+	int n1,n2, result;
+	printf("Enter two numbers:");
+	scanf("%d %d",&n1, &n2);
+	result = min(n1,n2);
+	printf("Minimum value : %d\n",result);
+	return 0;
+}
+int min(int n1,int n2)
+{
+	int min;
+	if(n1<n2)
+	{
+		min = n1;
+	}
+	else
+	{
+		min = n2;
+	}
+	return min;
+}
+```
+
+Output:
+
+```c
+Enter two numbers:44 11
+Minimum value : 11
+```
 
 #### Call by value
 
@@ -105,7 +175,6 @@ Example:
 #### Call by reference
 
 In call by reference, the called function accesses and works with the original values using their references. Any changes, that occur, take place on the original values and are reflected back to the calling function.
-
 
 ```c
 /*Program to swap two numbers*/
@@ -132,6 +201,7 @@ void swap(int *a, int *b){
 ```
 
 Output:
+
 ```c
 Numbers before swapping
 -----------------------
