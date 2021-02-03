@@ -13,12 +13,26 @@ C has the following character set:
 
 - _Letters_ A-Z ,a-z
 - _Digits_ 0-9
-- _Special Symbols_ + - \\\\* / % () []{}\ / = !<> . , ; : & ^ ? \\\\_ ' " ~ # \$
+- _Special Symbols_ + - \\\\\\\\\\\\\\\\\* / % () []{}\ / = !<> . , ; : & ^ ? \\\\\\\\\\\\\\\\\_ ' " ~ # \$
 - _White Spaces_ Blank Space, Horizontal tab, Carriage return, Newline, Form feed.
 
 **Token**: It is the smallest individual unit in a program.
 
 **Keywords**: These are the preserved words that convey a special meaning to the language compiler. It cannot be used as variable names because that would try to change the existing meaning of the keyword, that is'nt allowed.
+
+List of keywords :-
+
+|          |          |          |        |
+| :------: | :------: | :------: | :----: |
+|   auto   |  break   |   case   |  char  |
+|  const   | continue | default  |   do   |
+|  double  |   else   |   enum   | extern |
+|  float   |   for    |   goto   |   if   |
+|   int    |   long   | register | return |
+|  short   |  signed  |  sizeof  | static |
+|  struct  |  switch  | typedef  | union  |
+| unsigned |   void   | volatile | while  |
+| \_packed |
 
 **Identifier** : It is the name given by user for a unit of the program i.e. variables, constants, functions and user-define data.
 
