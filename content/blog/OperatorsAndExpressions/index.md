@@ -12,6 +12,19 @@ An expression in C is any valid combination of tokens.
 
 ### Types of operators
 
+#### Unary Operators
+
+Operators that act on one operand are referred to as Unary Opeartors.
+
+#### Binary Operators
+
+Operators that act upon two operands are referred to as Binary Opeartors.
+
+#### Ternary Operators
+
+Ternary operators requires three operands. 
+The conditional operator (*?:*) is a ternary operator.
+
 #### Arithmetic Operators
 
 These are used to perform arithmetic operations.
